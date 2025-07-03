@@ -1,0 +1,55 @@
+title: Learn Proxy
+description: A Spring Boot application for learning proxy concepts and patterns
+url: "" # Your GitHub Pages URL will go here
+baseurl: "" # Repository name if not using custom domain
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# GitHub Pages settings
+repository: "" # Your GitHub username/repository-name
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - src/
+  - target/
+  - pom.xml
+  - mvnw
+  - mvnw.cmd
+  - HELP.md
+  - CLAUDE.md
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:categories/:year/:month/:day/:title/
+
+# Default values
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Learn Proxy"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
