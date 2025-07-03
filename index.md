@@ -3,18 +3,43 @@ layout: default
 title: Home
 ---
 
-# Learn Proxy
+<div class="hero-section">
+    <div class="wrapper">
+        <h1>Learn Proxy</h1>
+        <p>Master proxy patterns and implementations with Spring Boot and WebFlux</p>
+        <a href="/docs" class="btn">Get Started</a>
+    </div>
+</div>
 
 Welcome to the Learn Proxy project - a comprehensive learning resource for understanding proxy concepts and patterns using modern Java and Spring Boot.
 
 ## What You'll Learn
 
-This repository demonstrates various proxy patterns and implementations:
-
-- **Forward Proxy** - Client-side proxy for accessing external resources
-- **Reverse Proxy** - Server-side proxy for load balancing and caching
-- **Transparent Proxy** - Invisible proxy for traffic interception
-- **HTTP Proxying** - Request/response manipulation and routing
+<div class="features-grid">
+  <div class="feature-card">
+    <div class="icon">🔄</div>
+    <h3>Forward Proxy</h3>
+    <p>Client-side proxy for accessing external resources, handling authentication, and providing anonymity.</p>
+  </div>
+  
+  <div class="feature-card">
+    <div class="icon">⚡</div>
+    <h3>Reverse Proxy</h3>
+    <p>Server-side proxy for load balancing, caching, SSL termination, and request routing.</p>
+  </div>
+  
+  <div class="feature-card">
+    <div class="icon">🔍</div>
+    <h3>Transparent Proxy</h3>
+    <p>Invisible proxy for traffic interception, content filtering, and network monitoring.</p>
+  </div>
+  
+  <div class="feature-card">
+    <div class="icon">🛠️</div>
+    <h3>HTTP Proxying</h3>
+    <p>Request/response manipulation, header modification, and protocol handling.</p>
+  </div>
+</div>
 
 ## Technology Stack
 
