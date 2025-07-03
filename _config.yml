@@ -13,7 +13,7 @@ plugins:
   - jekyll-seo-tag
 
 # GitHub Pages settings
-repository: "" # Your GitHub username/repository-name
+repository: "frankxue831/learn_proxy" # Your GitHub username/repository-name
 
 # Exclude from processing
 exclude:
