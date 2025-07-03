@@ -7,7 +7,7 @@ title: Home
     <div class="wrapper">
         <h1>Learn Proxy</h1>
         <p>Master proxy patterns and implementations with Spring Boot and WebFlux</p>
-        <a href="/docs" class="btn">Get Started</a>
+        <a href="{{ '/docs' | relative_url }}" class="btn">Get Started</a>
     </div>
 </div>
 
