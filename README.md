@@ -76,4 +76,4 @@ This is a learning project. Feel free to experiment with different proxy impleme
 
 ## License
 
-This project is for educational purposes.
+This project is licensed under the [MIT License](LICENSE).
