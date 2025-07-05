@@ -1,7 +1,11 @@
 title: Learn Proxy
 description: A Spring Boot application for learning proxy concepts and patterns
-url: "https://www.frankxue.dev" # Your GitHub Pages URL will go here
-baseurl: "/learn_proxy" # Repository name if not using custom domain
+# Site URL and base path.
+# Customize these values for your deployment.
+# You can also override them when building using the JEKYLL_URL and
+# JEKYLL_BASEURL environment variables.
+url: "" # e.g. https://example.com
+baseurl: "/learn_proxy" # Path prefix if the site is served from a subdirectory
 
 # Build settings
 markdown: kramdown

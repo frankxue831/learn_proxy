@@ -70,6 +70,13 @@ The application runs on Netty server (default for WebFlux) instead of traditiona
 
 Use `./mvnw` (Unix/Mac) or `mvnw.cmd` (Windows) instead of `mvn` to ensure consistent Maven version across different environments.
 
+### Customizing documentation URL
+
+The static site under `docs/` is built with Jekyll. Edit `docs/_config.yml`
+to change the `url` and `baseurl` values for your deployment. These settings can
+also be overridden at build time using the `JEKYLL_URL` and `JEKYLL_BASEURL`
+environment variables.
+
 ## Contributing
 
 This is a learning project. Feel free to experiment with different proxy implementations and patterns.
