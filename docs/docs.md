@@ -33,7 +33,7 @@ Before diving into proxy implementations, ensure you have:
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/frankxue831/learn_proxy.git
 cd learn_proxy
 
 # Build the project
